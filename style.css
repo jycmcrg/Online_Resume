@@ -1,0 +1,251 @@
+/* CONTAINER */
+@media screen and (max-width: 480px) {
+    .body {
+        width: 95%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background: #005A5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 816px;
+    min-height: 1056px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* LEFT SIDE BOX */
+.container .left_Side{
+    position: relative;
+    background: #4B9A9F;
+    padding: 40px;
+}
+
+/* LINE */
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* NAME */
+.profile h1{
+    color: #000000;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-family: Arial Black, sans-serif;
+}
+
+.profile h1 span{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTACT INFO */
+.contactInfo{
+    padding-top: 20px;
+}
+
+.contact{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 35px;
+    font-size: 20px;
+    color: #002e30;
+}
+
+.contactInfo ul li span{
+    color: #000000;
+    font-weight: 300;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SKILLS */
+.skillInfo{
+    padding-top: 20px;
+}
+
+.skill{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skillInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 8px 0;
+    padding-left: 30px;
+}
+
+.skillInfo ul li span{
+    color: #000000;
+    font-weight: 300;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* LANGAUGE */
+.languageInfo{
+    padding-top: 20px;
+}
+
+.language{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.languageInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 8px 0;
+    padding-left: 30px;
+}
+
+.languageInfo ul li span{
+    color: #000000;
+    font-weight: 300;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* RIGHT SIFE BOX */
+.container .right_Side{
+    position: relative;
+    background: #72A1AB;
+    padding: 25px;
+}
+
+/* OBJECTIVE */
+.objectiveInfo{
+    padding-top: 40px;
+}
+
+.objective{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.objectiveInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.objectiveInfo ul li span{
+    color: #000000;
+    font-weight: 300;
+    padding-top: 8px;
+    line-height: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* EDUCATION BACKGROUND INFO */
+.educationInfo{
+    padding-top: 15px;
+}
+
+.education{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.educationInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.educationInfo ul li span{
+    color: #000000;
+    font-weight: 300;
+    padding-top: 8px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INTEREST */
+.interestInfo{
+    padding-top: 15px;
+}
+
+.interest{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interestInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 8px 0;
+    padding-left: 30px;
+}
+
+.interestInfo ul li span{
+    color: #000000;
+    font-weight: 300;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
